@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time counter</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="time__title">Kim birinchi bo-rish-ga!</h1>
+    <form data-form>
+      <label for="counter">Masofa</label>
+      <input data-input type="text" id="counter" placeholder="km">
+      <button type="submit">Hisobla</button>
+    </form>
+    <div class="counter__boxes">
+      <div class="counter__box">
+        <img class="counter__img" src="./image/directions_walk_FILL0_wght400_GRAD0_opsz24.svg" alt="people walking">
+        <p>Piyoda</p>
+        <h2 data-heading-people></h2>
+      </div>
+      <div class="counter__box">
+        <img class="counter__img" src="./image/directions_bike_FILL0_wght400_GRAD0_opsz24.svg" alt="bike">
+        <p>Velosiped</p>
+        <h2 data-heading-bike></h2>
+      </div>
+      <div class="counter__box">
+        <img class="counter__img" src="./image/directions_car_FILL0_wght400_GRAD0_opsz24.svg" alt="car">
+        <p>Mashina</p>
+        <h2 data-heading-car></h2>
+      </div>
+      <div class="counter__box">
+        <img class="counter__img" src="./image/flightsmode_FILL0_wght400_GRAD0_opsz24.svg" alt="plane">
+        <p>Samolyot</p>
+        <h2 data-heading-plane></h2>
+      </div>
+    </div>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
